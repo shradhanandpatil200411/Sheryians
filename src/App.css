@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: helveticaBold;
+  src: url("./fonts/helvetica-now-display/HelveticaNowDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: helveticaLight;
+  src: url("./fonts/helvetica-now-display/HelveticaNowDisplay-Light.ttf");
+}
+
+@font-face {
+  font-family: helveticaThin;
+  src: url("./fonts/helvetica-now-display/HelveticaNowDisplay-Thin.ttf");
+}
+
+@font-face {
+  font-family: helveticaRegular;
+  src: url("./fonts/helvetica-now-display/HelveticaNowDisplay-Regular.ttf");
+}
+@font-face {
+  font-family: helveticaMedium;
+  src: url("./fonts/helvetica-now-display/HelveticaNowDisplay-Medium.ttf");
+}
+
+@font-face {
+  font-family: helveticaBold;
+  src: url("./fonts/helvetica-now-display/HelveticaNowDisplay-Bold.ttf");
+}
+
+@font-face {
+  font-family: neueLight;
+  src: url("./fonts/Neue/NeueMachina-Light.otf");
+}
+
+@font-face {
+  font-family: neueRegular;
+  src: url("./fonts/Neue/NeueMachina-Regular.otf");
+}
+
+@font-face {
+  font-family: neueUltrabold;
+  src: url("./fonts/Neue/NeueMachina-Ultrabold.otf");
+}
+
+@font-face {
+  font-family: juanaExtraLight;
+  src: url("./fonts/Juana/Demo_Fonts/Fontspring-DEMO-juana-extralightit.otf");
+}
+
+
+body{
+  background-color: #0c0c0c;
+  color: white;
+  font-family: neueLight;
+}
