@@ -7,26 +7,26 @@ function Navbar() {
     <>
       <div className='w-52 absolute h-56 bg-primary right-80 -top-48 rotate-45 blur-3xl rounded-xl opacity-40'></div>
       <div className='w-52 absolute h-56 bg-primary left-96 -top-28 shadow-2xl rotate-45 blur-3xl rounded-xl opacity-40'></div>
-      <section className='flex justify-around py-4 z-10 opacity-70'>
+      <section className='flex justify-around py-4 z-10 '>
         <div className='flex items-center'>
-          <img className='w-7 h-10 mx-2' src={logo} alt='logo' />
+          <img className='w-6 h-7 mx-2' src={logo} alt='logo' />
           <p className='font-[neueRegular]'>Sheryians coding school</p>
         </div>
         <div>
           <ul className='flex gap-10 items-center '>
-            <li className='font-extralight z-10  cursor-pointer hover:underline'>
+            <li className='font-extralight z-10 text-sm cursor-pointer hover:underline'>
               Home
             </li>
-            <li className='font-extralight z-10 cursor-pointer hover:underline'>
+            <li className='font-extralight z-10 text-sm cursor-pointer hover:underline'>
               Courses
             </li>
-            <li className='font-[neueRegular] z-10 cursor-pointer font-bold text-red-500 hover:underline animate-shake'>
+            <li className='font-[neueRegular] z-10 text-sm cursor-pointer font-bold text-red-500 hover:underline animate-shake'>
               KODR
             </li>
-            <li className='font-extralight z-10 cursor-pointer hover:underline'>
+            <li className='font-extralight z-10 text-sm cursor-pointer hover:underline'>
               Request Callback
             </li>
-            <li className='font- z-10 cursor-pointer hover:underline'>
+            <li className='font- z-10 cursor-pointer text-sm hover:underline'>
               Classrome
             </li>
             <li>
